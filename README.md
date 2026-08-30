@@ -5,16 +5,16 @@ Real-time computer vision system for controlling a JetBot using colored visual c
 
 A real-time computer vision project that controls a JetBot using colored visual commands. The system uses a Jetson Nano CSI camera and OpenCV to detect colored objects and translate them into robot movement commands.
 
-## Demo
+## Color Commands
 
-The robot interprets four colors as commands:
+The robot responds to four detected colors:
 
-| Color     | Command            |
-| --------- | ------------------ |
-| 🔴 Red    | Stop               |
-| 🔵 Blue   | Turn Anticlockwise |
-| 🟢 Green  | Turn Clockwise     |
-| 🟡 Yellow | Move Forward       |
+| Color | Robot Action |
+|---|---|
+| Red | Stop |
+| Blue | Turn Anticlockwise |
+| Green | Turn Clockwise |
+| Yellow | Move Forward |
 
 The system remembers the last detected command, so the robot continues executing the previous command even when the colored object temporarily leaves the camera frame.
 
