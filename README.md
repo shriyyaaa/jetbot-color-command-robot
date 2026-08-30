@@ -1,6 +1,3 @@
-# jetbot-color-command-robot
-Real-time computer vision system for controlling a JetBot using colored visual commands, OpenCV, and a Jetson Nano CSI camera.
-
 # JetBot Color Command Robot
 
 A real-time computer vision project that controls a JetBot using colored visual commands. The system uses a Jetson Nano CSI camera and OpenCV to detect colored objects and translate them into robot movement commands.
